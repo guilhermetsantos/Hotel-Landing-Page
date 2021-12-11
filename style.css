@@ -1,0 +1,178 @@
+@font-face{
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header {
+    background-color: #FEEED4;
+    height: 200px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+header img {
+    width: 250px;
+}
+
+header .menu {
+    float: right;
+    display: flex;
+    color: #D32F2F;
+}
+
+header .menu .info {
+    margin-right: 80px;
+}
+
+header nav {
+    background-color: #FFF;
+    width: 1520px;
+    height: 60px;
+    position: relative;
+    top: 70px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #D32F2F;
+    margin: 40px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav button {
+    position: relative;
+    left: 800px;
+    width: 120px;
+    height: 35px;
+    background-color: #D32F2F;
+    border: none;
+    color: #FFF;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+header nav button:hover {
+    background-color: #ff0909;
+}
+
+main .title {
+    width: 40%;
+    height: 700px;
+    background-color: #D32F2F;
+    float: left;
+}
+
+main .title .title-content {
+    color: #FFF;
+    margin: 150px 30px 0 30px;
+    height: 550px;
+}
+
+main .title .title-content h2{
+    max-width: 250px;
+    font-size: 2.2em;
+}
+
+main .title .title-content p {
+    margin: 30px 0 30px 0;
+}
+
+main .title .title-content a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+main .title .title-content a:hover {
+    text-decoration: underline;
+}
+
+main .title .title-content button {
+    display: block;
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFF;
+    color: #D32F2F;
+}
+
+main .title .title-content button:hover {
+    background-color: #ff0909;
+    color: #FFF;
+}
+
+main .banner {
+    width: 60%;
+    height: 700px;
+    float: right;
+}
+
+main .banner img {
+    width: 998px;
+    height: 700px;
+}
+
+.clear {
+    clear: left;
+}
+
+main .contact-form {
+    color: #D32F2F;
+    position: relative;
+    width: 40%;
+    padding-bottom: 80px;
+    clear: left;
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+
+main .contact-form form input, textarea {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    height: 35px;
+}
+
+main .contact-form form input, textarea {
+    display: block;
+}
+
+main .contact-form form .button {
+    background-color: #D32F2F;
+    border: none;
+    color: #FFF;
+    position: relative;
+    top: 30px;
+}
+
+main .contact-form form .button:hover {
+    background-color: #ff0909;
+}
+
+main .logo {
+    width: 60%;
+    height: 400px;
+    float: right;
+}
+
+main .logo img {
+   float: right;
+   position: relative;
+   top: 130px;
+   right: 350px;
+   width: 300px;
+}
